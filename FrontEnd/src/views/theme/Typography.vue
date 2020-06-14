@@ -1,215 +1,339 @@
 <template>
   <div>
-    <div class="card">
-      <div class="card-header">
-        Headings
-      </div>
-      <div class="card-body">
-        <p>Documentation and examples for Bootstrap typography,
-          including global settings, headings, body text, lists, and more.</p>
-        <table class="table">
-          <thead>
-            <tr>
-              <th>Heading</th>
-              <th>Example</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <p>
-                  <code class="highlighter-rouge">
-                    &lt;h1&gt;&lt;/h1&gt;
-                  </code>
-                </p>
-              </td>
-              <td><span class="h1">h1. Bootstrap heading</span></td>
-            </tr>
-            <tr>
-              <td>
-                <p>
-                  <code class="highlighter-rouge">
-                    &lt;h2&gt;&lt;/h2&gt;
-                  </code>
-                </p>
-              </td>
-              <td><span class="h2">h2. Bootstrap heading</span></td>
-            </tr>
-            <tr>
-              <td>
-                <p>
-                  <code class="highlighter-rouge">
-                    &lt;h3&gt;&lt;/h3&gt;
-                  </code>
-                </p>
-              </td>
-              <td><span class="h3">h3. Bootstrap heading</span></td>
-            </tr>
-            <tr>
-              <td>
-                <p>
-                  <code class="highlighter-rouge">
-                    &lt;h4&gt;&lt;/h4&gt;
-                  </code>
-                </p>
-              </td>
-              <td><span class="h4">h4. Bootstrap heading</span></td>
-            </tr>
-            <tr>
-              <td>
-                <p>
-                  <code class="highlighter-rouge">
-                    &lt;h5&gt;&lt;/h5&gt;
-                  </code>
-                </p>
-              </td>
-              <td><span class="h5">h5. Bootstrap heading</span></td>
-            </tr>
-            <tr>
-              <td>
-                <p>
-                  <code class="highlighter-rouge">
-                    &lt;h6&gt;&lt;/h6&gt;
-                  </code>
-                </p>
-              </td>
-              <td><span class="h6">h6. Bootstrap heading</span></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header">
-        Headings
-      </div>
-      <div class="card-body">
-        <p>
-          <code class="highlighter-rouge">.h1</code> through
-          <code class="highlighter-rouge">.h6</code>
-          classes are also available, for when you want to match the font
-          styling of a heading but cannot use the associated HTML element.
-        </p>
-        <div class="bd-example">
-          <p class="h1">h1. Bootstrap heading</p>
-          <p class="h2">h2. Bootstrap heading</p>
-          <p class="h3">h3. Bootstrap heading</p>
-          <p class="h4">h4. Bootstrap heading</p>
-          <p class="h5">h5. Bootstrap heading</p>
-          <p class="h6">h6. Bootstrap heading</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header">
-        Display headings
-      </div>
-      <div class="card-body">
-        <p>
-          Traditional heading elements are designed to work best in the meat
-          of your page content. When you need a heading to stand out,
-          consider using a <strong>display heading</strong>—a larger,
-           slightly more opinionated heading style.
-        </p>
-        <div class="bd-example bd-example-type">
-          <table class="table">
-            <tbody>
-              <tr>
-                <td><span class="display-1">Display 1</span></td>
-              </tr>
-              <tr>
-                <td><span class="display-2">Display 2</span></td>
-              </tr>
-              <tr>
-                <td><span class="display-3">Display 3</span></td>
-              </tr>
-              <tr>
-                <td><span class="display-4">Display 4</span></td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header">
-        Inline text elements
-      </div>
-      <div class="card-body">
-        <p>
-          Traditional heading elements are designed to work best in the meat
-          of your page content. When you need a heading to stand out,
-          consider using a <strong>display heading</strong>—a larger,
-          slightly more opinionated heading style.
-        </p>
-        <div class="bd-example">
-          <p>You can use the mark tag to <mark>highlight</mark> text.</p>
-          <p><del>
-            This line of text is meant to be treated as deleted text.
-          </del></p>
-          <p><s>
-            This line of text is meant to be treated as no longer accurate.
-          </s></p>
-          <p><ins>
-            This line of text is meant to be treated as an addition to the document.
-          </ins></p>
-          <p><u>This line of text will render as underlined</u></p>
-          <p><small>
-            This line of text is meant to be treated as fine print.
-          </small></p>
-          <p><strong>This line rendered as bold text.</strong></p>
-          <p><em>This line rendered as italicized text.</em></p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header">
-        Description list alignment
-      </div>
-      <div class="card-body">
-        <p>
-          Align terms and descriptions horizontally by using our grid system’s
-          predefined classes (or semantic mixins). For longer terms, you can
-          optionally add a <code class="highlighter-rouge">.text-truncate</code>
-          class to truncate the text with an ellipsis.
-        </p>
-        <div class="bd-example">
-          <dl class="row">
-            <dt class="col-sm-3">Description lists</dt>
-            <dd class="col-sm-9">
-              A description list is perfect for defining terms.
-            </dd>
 
-            <dt class="col-sm-3">Euismod</dt>
-            <dd class="col-sm-9">
-              <p>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</p>
-              <p>Donec id elit non mi porta gravida at eget metus.</p>
-            </dd>
 
-            <dt class="col-sm-3">Malesuada porta</dt>
-            <dd class="col-sm-9">
-              Etiam porta sem malesuada magna mollis euismod.
-            </dd>
+   <CCol md="12">
+        <CCard>
+          <CCardHeader>
+            <strong>Basic Form</strong> Elements
+          </CCardHeader>
+          <CCardBody>
+            <CForm>
+              <CInput
+                description="Let us know your full name."
+                label="Enter your name"
+                horizontal
+                autocomplete="name"
+              />
+              <CInput
+                label="Static"
+                value="Username"
+                horizontal
+                plaintext
+              />
+              <CInput
+                label="Text input"
+                description="This is a help text"
+                placeholder="Text"
+                horizontal
+              />
+              <CInput
+                label="Date"
+                type="date"
+                horizontal
+              />
+              <CInput
+                label="Email input"
+                description="Please enter your email"
+                placeholder="Enter your email"
+                type="email"
+                horizontal
+                autocomplete="email"
+              />
+              <CInput
+                label="Password Input"
+                description="Please enter a complex password"
+                placeholder="Enter your password"
+                type="password"
+                horizontal
+                autocomplete="current-password"
+              />
+              <CInput
+                label="Disabled Input"
+                placeholder="Disabled"
+                horizontal
+                disabled
+              />
+              <CTextarea
+                label="Textarea"
+                placeholder="Content..."
+                horizontal
+                rows="9"
+              />
+              <CSelect
+                label="Select"
+                horizontal
+                :options="options"
+                placeholder="Please select"
+              />
+              <CSelect
+                label="Large select"
+                size="lg"
+                horizontal
+                :value.sync="selectedOption"
+                :options="selectOptions"
+                placeholder="Please select"
+              />
+              <CSelect
+                label="Small select"
+                size="sm"
+                horizontal
+                :options="options"
+                placeholder="Please select"
+              />
+              <CSelect
+                label="Select"
+                horizontal
+                :options="options"
+                placeholder="Please select"
+                disabled
+              />
+              <template v-for="(name, key) in checkboxNames">
+                <CRow form class="form-group" :key="name">
+                  <CCol tag="label" sm="3" class="col-form-label">
+                    {{name}}
+                  </CCol>
+                  <CCol sm="9" :class="key % 2 === 1 ? 'form-inline' : ''">
+                    <CInputCheckbox
+                      v-for="(option, optionIndex) in options"
+                      :key="key + option"
+                      :label="option"
+                      :value="option"
+                      :custom="key > 1"
+                      :name="`Option 1${key}`"
+                      :checked="optionIndex === key"
+                      :inline="key % 2 === 1"
+                    />
+                  </CCol>
+                </CRow>
+              </template>
+              <template v-for="(name, key) in radioNames">
+                <CRow form class="form-group" :key="name">
+                  <CCol sm="3">
+                    {{name}}
+                  </CCol>
+                  <CInputRadioGroup
+                    class="col-sm-9"
+                    :options="options"
+                    :custom="key > 1"
+                    :checked="`Option ${key}`"
+                    :inline="key % 2 === 1"
+                  />
+                </CRow>
+              </template>
+              <CInputFile
+                label="File input"
+                horizontal
+              />
+              <CInputFile
+                label="Multiple file input"
+                horizontal
+                multiple
+              />
+              <CInputFile
+                label="File custom input"
+                horizontal
+                custom
+              />
+              <CInputFile
+                label="Multiple file custom input"
+                horizontal
+                multiple
+                custom
+              />
+            </CForm>
+          </CCardBody>
+          <CCardFooter>
+            <CButton type="submit" size="sm" color="primary"><CIcon name="cil-check-circle"/> Submit</CButton>
+            <CButton type="reset" size="sm" color="danger"><CIcon name="cil-ban"/> Reset</CButton>
+          </CCardFooter>
+        </CCard>
+        <CCard>
+          <CCardHeader>
+            <strong>Inline</strong> Form
+          </CCardHeader>
 
-            <dt class="col-sm-3 text-truncate">Truncated term is truncated</dt>
-            <dd class="col-sm-9">
-              Fusce dapibus, tellus ac cursus commodo, tortor mauris
-              condimentum nibh, ut fermentum massa justo sit amet risus.
-            </dd>
+          <CCardBody>
+            <!-- Bootstrap Vue has some problems with Inline forms that's why we use some standard bootstrap classes -->
+            <CForm inline>
+              <CInput
+                class="mr-2"
+                placeholder="Jane Doe"
+              >
+                <template #label>
+                  <small>Name:&nbsp;</small>
+                </template>
+              </CInput>
+              <CInput
+                placeholder="jane.doe@example.com"
+                autocomplete="email"
+              >
+                <template #label>
+                  <small>Email:&nbsp;</small>
+                </template>
+              </CInput>
+            </CForm>
+          </CCardBody>
+          <CCardFooter>
+            <CButton type="submit" size="sm" color="primary"><CIcon name="cil-check-circle"/> Submit</CButton>
+            <CButton type="reset" size="sm" color="danger"><CIcon name="cil-ban"/> Reset</CButton>
+          </CCardFooter>
+        </CCard>
+      </CCol>
+      <CCol md="6">
+        <CCard>
+          <CCardHeader>
+            <strong>Horizontal</strong> Form
+          </CCardHeader>
+          <CCardBody>
+            <CForm>
+              <CInput
+                type="email"
+                description="Please enter your email."
+                autocomplete="email"
+                label="Email"
+                horizontal
+                placeholder="Enter Email..."
+              />
+              <CInput
+                type="password"
+                description="Please enter your password."
+                autocomplete="current-password"
+                label="Password"
+                horizontal
+                placeholder="Enter Password..."
+              />
+            </CForm>
+          </CCardBody>
+          <CCardFooter>
+            <CButton type="submit" size="sm" color="primary"><CIcon name="cil-check-circle"/> Submit</CButton>
+            <CButton type="reset" size="sm" color="danger"><CIcon name="cil-ban"/> Reset</CButton>
+          </CCardFooter>
+        </CCard>
+        <CCard>
+          <CCardHeader>
+            <strong>Normal</strong> Form
+          </CCardHeader>
+          <CForm novalidate>
+            <CCardBody>
+              <CInput
+                type="email"
+                description="Please enter your email."
+                autocomplete="email"
+                label="Email"
+                placeholder="Enter Email..."
+                required
+                was-validated
+              />
+              <CInput
+                type="password"
+                description="Please enter your password."
+                autocomplete="current-password"
+                label="Password"
+                placeholder="Enter Password..."
+                required
+                was-validated
+              />
+            </CCardBody>
+            <CCardFooter>
+              <CButton type="submit" size="sm" color="primary"><CIcon name="cil-check-circle"/> Submit</CButton>
+              <CButton type="reset" size="sm" color="danger"><CIcon name="cil-ban"/> Reset</CButton>
+            </CCardFooter>
+          </CForm>
+        </CCard>
+        <CCard>
+          <CCardHeader>
+            Input <strong>Grid</strong>
+          </CCardHeader>
+          <CCardBody>
+            <CRow class="form-group">
+              <CCol sm="3">
+                <CInput class="mb-0" placeholder=".col-sm-3"/>
+              </CCol>
+            </CRow>
+            <CRow class="form-group">
+              <CCol sm="4">
+                <CInput class="mb-0" placeholder=".col-sm-4"/>
+              </CCol>
+            </CRow>
+            <CRow class="form-group">
+              <CCol sm="5">
+                <CInput class="mb-0" placeholder=".col-sm-5"/>
+              </CCol>
+            </CRow>
+            <CRow class="form-group">
+              <CCol sm="6">
+                <CInput class="mb-0" placeholder=".col-sm-6"/>
+              </CCol>
+            </CRow>
+            <CRow class="form-group">
+              <CCol sm="7">
+                <CInput class="mb-0" placeholder=".col-sm-7"/>
+              </CCol>
+            </CRow>
+            <CRow class="form-group">
+              <CCol sm="8">
+                <CInput class="mb-0" placeholder=".col-sm-8"/>
+              </CCol>
+            </CRow>
+            <CRow class="form-group">
+              <CCol sm="9">
+                <CInput class="mb-0" placeholder=".col-sm-9"/>
+              </CCol>
+            </CRow>
+            <CRow class="form-group">
+              <CCol sm="10">
+                <CInput class="mb-0" placeholder=".col-sm-10"/>
+              </CCol>
+            </CRow>
+            <CRow class="form-group">
+              <CCol sm="11">
+                <CInput class="mb-0" placeholder=".col-sm-11"/>
+              </CCol>
+            </CRow>
+            <CRow class="form-group">
+              <CCol sm="12">
+                <CInput class="mb-0" placeholder=".col-sm-12"/>
+              </CCol>
+            </CRow>
+          </CCardBody>
+          <CCardFooter>
+            <CButton type="submit" size="sm" color="primary"><CIcon name="cil-user"/> Login</CButton>
+            <CButton type="reset" size="sm" color="danger"><CIcon name="cil-ban"/> Reset</CButton>
+          </CCardFooter>
+        </CCard>
+        <CCard>
+          <CCardHeader>
+            Input <strong>Sizes</strong>
+          </CCardHeader>
+          <CCardBody>
+            <CInput
+              label="Small input"
+              size="sm"
+              horizontal
+              placeholder="size='sm'"
+            />
+            <CInput
+              label="Default input"
+              horizontal
+              placeholder="normal"
+            />
+            <CInput
+              label="Large input"
+              size="lg"
+              horizontal
+              placeholder="size='lg'"
+            />
+          </CCardBody>
+          <CCardFooter>
+            <CButton type="submit" size="sm" color="primary"><CIcon name="cil-check-circle"/> Submit</CButton>
+            <CButton type="reset" size="sm" color="danger"><CIcon name="cil-ban"/> Reset</CButton>
+          </CCardFooter>
+        </CCard>
+      </CCol>
+    </CRow>
 
-            <dt class="col-sm-3">Nesting</dt>
-            <dd class="col-sm-9">
-              <dl class="row">
-                <dt class="col-sm-4">Nested definition list</dt>
-                <dd class="col-sm-8">
-                  Aenean posuere, tortor sed cursus feugiat, nunc augue nunc.
-                </dd>
-              </dl>
-            </dd>
-          </dl>
-        </div>
-      </div>
-    </div>
+
   </div>
 </template>
 
