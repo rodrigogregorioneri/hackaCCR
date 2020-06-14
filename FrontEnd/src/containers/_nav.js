@@ -171,7 +171,7 @@ export default [
       {
         _name: 'CSidebarNavItem',
         name: 'Alertas',
-        route: '/notifications',
+        to: '/widgets',
         icon: 'cil-bell',
 
       },
@@ -186,18 +186,18 @@ export default [
       //     shape: 'pill'
       //   }
       // },
-      {
-        _name: 'CSidebarNavDivider',
-        _class: 'm-2'
-      },
-      {
-        _name: 'CSidebarNavTitle',
-        _children: ['Extras']
-      },
+      // {
+      //   _name: 'CSidebarNavDivider',
+      //   _class: 'm-2'
+      // },
+      // {
+      //   _name: 'CSidebarNavTitle',
+      //   _children: ['Extras']
+      // },
       {
         _name: 'CSidebarNavItem',
         name: 'Rankig dos Caminhoneiros',
-        route: '/pages',
+        to: '/icons',
         icon: 'cil-star',
 
       },
